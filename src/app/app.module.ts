@@ -8,7 +8,7 @@ import { CompartidoModule } from './compartido/compartido.module';
 import { PrincipalModule } from './principal/principal.module';
 import { AppRouterModule } from './app-router.module';
 
-import localeEs from '@angular/common/locales/es';
+import localeEs from '@angular/common/locales/es-AR';
 import { registerLocaleData } from '@angular/common';
 
 registerLocaleData(localeEs)
@@ -27,7 +27,7 @@ registerLocaleData(localeEs)
   ],
   providers: [
     {
-      provide: LOCALE_ID, useValue: 'es'
+      provide: LOCALE_ID, useValue: 'es-AR'
     }
   ],
   bootstrap: [AppComponent]
